@@ -1,0 +1,9 @@
+Dockerfile
+.github
+.idea
+docker-compose.yaml
+*.md
+*.example
+client
+config
+docs

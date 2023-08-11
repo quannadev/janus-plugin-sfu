@@ -5,3 +5,4 @@
 scripts/build
 client/server.key
 client/server.pem
+.idea

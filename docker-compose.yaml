@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  janus:
+    container_name: "janus_sv"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - "8088:8088"
+        - "8188:8188"
+        - "8089:8089"
+        - "8189:8189"
+        - "7088:7088"
+        - "7188:7188"
+        - "7089:7089"
+        - "7189:7189"
+    volumes:
+        - ./config:/opt/janus/etc/janus
