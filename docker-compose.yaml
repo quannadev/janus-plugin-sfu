@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    command: ["/opt/janus/bin/janus", "-F", "/opt/janus/etc/janus"]
     ports:
         - "8088:8088"
         - "8188:8188"

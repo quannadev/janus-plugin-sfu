@@ -6,7 +6,7 @@ general: {
   debug_level = 4
   debug_colors = false
   debug_timestamps = false
-  log_to_stdout = false
+  log_to_stdout = true
   admin_secret = "janusoverlord"
   session_timeout = 0
   opaqueid_in_api = true
